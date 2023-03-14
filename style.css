@@ -2,6 +2,7 @@
     --bg-dark: rgb(44 63 80);
     --bg-green: rgb(25 188 155);
     --bg-white: white;
+    --bg-blue-n: rgb(59 84 109);
 }
 
 .bg-body-tertiary{
@@ -72,4 +73,37 @@
 
 #send{
     margin-top: 5rem;
+}
+
+/* footer */
+
+/* section adress */
+#adress{
+    background-color: var(--bg-blue-n);
+}
+
+#adress ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#adress li{
+    border: 1px solid white;
+    padding: 1rem 1.25rem;
+    border-radius: 50px;
+    margin: 0 0.5rem;
+}
+
+#adress ul li i{
+    color: white;
+}
+
+#adress mark{
+    background-color: transparent;
+    color: var(--bg-green);
+}
+
+/* section copyright */
+#copyright{
+    background-color: var(--bg-dark);
 }
