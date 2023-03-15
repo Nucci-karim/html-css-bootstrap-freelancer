@@ -62,6 +62,21 @@
     background-color: var(--bg-white);
 }
 
+input.form-control,
+textarea.form-control,
+button.form-control{
+    background-color: white;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+button.form-control.send{
+    background-color: white;
+    border: 0;
+    color: white;
+}
+
 .btn-success{
     background-color: var(--bg-green) !important;
 }
@@ -71,8 +86,8 @@
     display: flex;
 }
 
-#send{
-    margin-top: 5rem;
+::placeholder{
+    color: black !important;
 }
 
 /* footer */
